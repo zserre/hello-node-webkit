@@ -1,0 +1,11 @@
+{
+  "name": "BranchManager",
+  "description": "Git client that show state of branches",
+  "version": "0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 660,
+    "height": 500
+  }
+}
