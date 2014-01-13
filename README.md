@@ -23,9 +23,9 @@ To enable an easy to use aliasing use the following command:
 alias nw="/Applications/node-webkit.app/Contents/MacOS/node-webkit"
 
 To package the app:
-
+<pre></code>
 zip -r app.nw *
-
+</code></pre>
 Run the app:
 
 nw app.nw
