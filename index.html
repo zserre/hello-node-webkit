@@ -19,14 +19,16 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
     </ul>
-    <form class="well form-inline">  
-      <label>Worspace Location:</label>
-      <input type="text" class="input-small at-least-200px" placeholder="~/">  
-      <button type="submit" class="btn">Refresh Projects</button>  
-    </form>  
-    <table class="table">            
+    <div class="well">
+      <form class="form-inline">  
+        <label>Workspace Location:</label>
+        <input type="text" class="input-small at-least-300px" placeholder="~/workspace">  
+        <button type="submit" class="btn">Refresh Projects</button>  
+      </form> 
+
+     <table class="table">            
       <tr>
-        <td>Git Project:</td>
+        <td class="pull-right pull-down">Git Project:</td>
         <td>
           <div class="btn-group ">
             <div class="btn-group">
@@ -43,52 +45,21 @@
         </td>
       </tr>
     </table>
+    </div>
 
-    <span class="fa fa-calendar"></span>
+    <div class="progress">
+  <div class="progress-bar progress-bar-success" style="width: 35%">
+    <span class="sr-only">35% Complete (success)</span>
+  </div>
+  <div class="progress-bar progress-bar-warning" style="width: 20%">
+    <span class="sr-only">20% Complete (warning)</span>
+  </div>
+  <div class="progress-bar progress-bar-danger" style="width: 10%">
+    <span class="sr-only">10% Complete (danger)</span>
+  </div>
+</div>
 
-  <div class="table-responsive">
-      <table class="table"> 
-         <thead>
-            <tr>
-              <th>HEllo</th>
-              <th>World</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><div class="input-group">
-  <span class="input-group-addon">@</span>
-  <input type="text" class="form-control" placeholder="Username">
-</div></td>
-              <td>2</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-  
-  <label for="brewStyle" class="col-sm-4 control-label">Git Project:</label>
-  
-
-  
-  
-  <div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <span class="input-group-addon">
-        <input type="checkbox">
-      </span>
-      <input type="text" class="form-control">
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-  <div class="col-lg-6">
-    <div class="input-group">
-      <span class="input-group-addon">
-        <input type="radio">
-      </span>
-      <input type="text" class="form-control">
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
+    
 
   <!--<div style="position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px;">
     <div class="well" style="float: left; width: 160px; padding: 8px;">

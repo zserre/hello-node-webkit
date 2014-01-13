@@ -8,7 +8,7 @@ These are the instructions for running this app on a Mac. These will vary slight
 
 Install the [Mac node-webkit](https://s3.amazonaws.com/node-webkit/v0.8.4/node-webkit-v0.8.4-osx-ia32.zip) 
 
-Place node-webkit.app in the Apllication folder
+Place node-webkit.app in the Application folder
 
 To enable aliasing so you don't have to specify the full path to the binary, run this command:
 <pre></code>

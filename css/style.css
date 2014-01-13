@@ -27,6 +27,10 @@ body {
   min-width: 200px;
 }
 
+.at-least-300px {
+  min-width: 300px;
+}
+
 /** {
   -webkit-user-select: none;
 }
