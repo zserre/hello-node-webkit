@@ -20,74 +20,39 @@
       <li><a href="#">About</a></li>
     </ul>
     <div class="well">
-      <form class="form-inline">  
-        <label>Workspace Location:</label>
-        <input type="text" class="input-small at-least-300px" placeholder="~/workspace">  
-        <button type="submit" class="btn">Refresh Projects</button>  
+      <form id="frmGitRepo" class="form-inline">  
+        <label>Git Repo Location:</label>
+        <input type="text" class="input-small at-least-300px" placeholder="~/workspace/hello-node-webkit">  
+        <button id="btnBrowse" class="btn">Browse</button>  
+        <button id="btnRefreshProjects" class="btn btn-success">Show Git Branches</button>  
       </form> 
 
-     <table class="table">            
-      <tr>
-        <td class="pull-right pull-down">Git Project:</td>
-        <td>
-          <div class="btn-group ">
-            <div class="btn-group">
-              <button type="button" id="btnGitProject" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                Dropdown
-                <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="#">Dropdown link</a></li>
-                <li><a href="#">Dropdown link</a></li>
-              </ul>
+      <!--  <table class="table">            
+        <tr>
+          <td class="pull-right pull-down">Git Project:</td>
+          <td>
+            <div class="btn-group ">
+              <div class="btn-group">
+                <button type="button" id="btnGitProject" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  Dropdown
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Dropdown link</a></li>
+                  <li><a href="#">Dropdown link</a></li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </td>
-      </tr>
+          </td>
+        </tr>
+      </table> -->
+    </div>
+    <table id="tblCmdContent" class="table">
     </table>
-    </div>
-
-    <div class="progress">
-  <div class="progress-bar progress-bar-success" style="width: 35%">
-    <span class="sr-only">35% Complete (success)</span>
-  </div>
-  <div class="progress-bar progress-bar-warning" style="width: 20%">
-    <span class="sr-only">20% Complete (warning)</span>
-  </div>
-  <div class="progress-bar progress-bar-danger" style="width: 10%">
-    <span class="sr-only">10% Complete (danger)</span>
-  </div>
-</div>
-
-    
-
-  <!--<div style="position: absolute; left: 10px; right: 10px; top: 10px; bottom: 10px;">
-    <div class="well" style="float: left; width: 160px; padding: 8px;">
-      <ul class="nav nav-list">
-        <li class="nav-header">Favorites</li>
-        <li class="active"><a href="#"><i class="icon-white icon-home"></i> Home</a></li>
-        <li><a href="#"><i class="icon-book"></i> Documents</a></li>
-        <li><a href="#"><i class="icon-picture"></i> Pictures</a></li>
-        <li class="nav-header">Network</li>
-        <li class="divider"></li>
-        <li><a href="#"><i class="icon-flag"></i> About</a></li>
-      </ul>
-    </div>
-
-
-
-    <!-- <div style="float: left; position: absolute; left: 210px; right: 0; top: 0; bottom: 50px">
-      <div class="row">
-        <ul id="addressbar" class="breadcrumb"></ul>
-      </div>
-      <div class="row" style="background: #FFF; -webkit-border-radius: 2px; margin: -5px 1px 0 -19px; height: 100%; overflow: auto">
-        <ul style="margin: 5px;" id="files"></ul>
-      </div>
-    </div>
-  </div> -->
+    <input style="display:none;" id="fileDialog" type="file" nwdirectory/>
 
   </div>
-  <script type="text/javascript" src="js/jquery/jquery-1.10.2.js"></script>
+  <script type="text/javascript" src="js/jquery/jquery-1.7.2.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
   <script type="text/javascript" src="js/main.js"></script>

@@ -5,7 +5,6 @@
   src: local('Droid Sans'), local('DroidSans'), url(https://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
-
 body {
   margin-top: 50px;
   font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
@@ -13,14 +12,12 @@ body {
   margin: 5px;
 }
 
-.small-vertical-spacer
-{
- height: 20px;   
+.small-vertical-spacer {
+  height: 20px;    
 }
 
-.small-horizontal-spacer
-{
-    width: 20px;  
+.small-horizontal-spacer {
+  width: 20px;  
 }
 
 .at-least-200px {
@@ -31,50 +28,10 @@ body {
   min-width: 300px;
 }
 
-/** {
-  -webkit-user-select: none;
+.fouc {
+  display: none;
 }
 
-body {
-  background-image: url('images/htmlbg.png')
+.greenTxt {
+  background-color: #00FF00
 }
-
-.files {
-  padding: 0;
-  margin: 0;
-}
-
-.file {
-  padding: 2px;
-  margin: 2px;
-  width: 80px;
-  display: inline-block;
-
-  text-align: center;
-  vertical-align: top;
-}
-
-.file.focus {
-  background-color: #08C;
-  -webkit-border-radius: 4px;
-}
-
-.file .name {
-  width: 80px;
-  word-wrap: break-word;
-}
-
-.file.focus .name {
-  color: white;
-}
-
-.file .icon {
-  margin: auto;
-  margin-top: 0;
-  width: 60px;
-}
-
-.file.focus .icon {
-  -webkit-filter: invert(20%);
-}
-*/
